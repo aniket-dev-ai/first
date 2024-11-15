@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.view1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10vh 5vw;
+  padding-bottom: 4vw;
+  gap: 2rem;
+  //   background: rgb(252, 222, 232);
+  background: linear-gradient(
+    27deg,
+    rgba(252, 222, 232, 1) 22%,
+    rgba(243, 252, 255, 1) 57%
+  );
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    & > * {
+      flex-basis: 50%;
+    }
+    .text {
+      padding-left: 5vw;
+
+      h1 {
+        font-size: 3.5rem;
+      }
+    }
+    img {
+      width: 29rem;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+
+    p {
+      width: 70%;
+      text-align: center;
+      font-weight: 300;
+      opacity: 0.7;
+    }
+  }
+}
+
+.view2 {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+  margin-bottom: 5vh;
+  .cards {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 23%;
+    gap: 1.5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    h2 {
+      font-size: 1.4rem;
+    }
+    p {
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+    img {
+      margin-top: 2rem;
+      width: 15rem;
+    }
+  }
+}
+
+.view3 , .view5 {
+  min-height: 70vh;
+  display: flex;
+  padding-left: 5rem;
+  justify-content: center;
+  align-items: center;
+  .center {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      justify-content: center;
+
+      h1 {
+        font-size: 2.8rem;
+      }
+      p {
+        width: 80%;
+      }
+      .btn {
+        display: flex;
+        gap: 2rem;
+
+        .btn1 {
+          padding: 0.5rem 1.4rem;
+          border-radius: 1rem;
+          border: 1px solid #0468d7;
+          color: #0468d7;
+          background-color: white;
+          font-size: 0.7rem;
+          font-weight: 600;
+          transition: all 300ms;
+        }
+        .btn1:hover {
+          color: white;
+          background-color: #0468d7;
+        }
+        .btn2 {
+          background-color: white;
+          font-size: 0.7rem;
+          font-weight: 600;
+          transition: all 300ms;
+          border: none;
+        }
+      }
+    }
+  }
+}
+.view4 , .view6 {
+  min-height: 70vh;
+  display: flex;
+  padding-left: 5rem;
+  justify-content: center;
+  align-items: center;
+  background: rgb(252,252,226);
+background: linear-gradient(27deg, rgba(252,252,226,1) 36%, rgba(245,251,254,1) 86%);
+  .center {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      justify-content: center;
+
+      h1 {
+        font-size: 2.8rem;
+      }
+      p {
+        width: 80%;
+      }
+      .wwe {
+        width: 40%;
+        padding: 0.5rem 1.4rem;
+        border-radius: 1rem;
+        border: 1px solid #0468d7;
+        color: white;
+        background-color: #0468d7;
+        font-size: 0.7rem;
+        font-weight: 600;
+        transition: all 300ms;
+      }
+      .wwe:hover {
+        color: #0468d7;
+        background-color: white;
+      }
+    }
+  }
+}
+.view7 {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .center{
+        background-color: #042449;
+        width: 70%;
+        color: white;
+        padding: 3rem;
+        border-radius: 2.6rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        h1{
+            font-size: 3rem;
+        }
+        div{
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+            button {
+                padding: 0.5rem 1.4rem;
+                border-radius: 1rem;
+                border: 1px solid #0468d7;
+                color: #0468d7;
+                background-color: white;
+                font-size: 0.7rem;
+                font-weight: 600;
+                transition: all 300ms;
+              }
+              button:hover {
+                color: white;
+                background-color: #0468d7;
+              }
+        }
+        
+    }
+}
+
+
+
